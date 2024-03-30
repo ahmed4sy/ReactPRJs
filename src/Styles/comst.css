@@ -1,0 +1,68 @@
+.App {
+    background: rgb(70, 3, 132);
+    height: 100vh;
+}
+* {
+    user-select: none;
+}
+.MyHeader {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    background-color: blueviolet;
+    color: white;
+    font-variant: small-caps;
+    border-bottom: 15px rgb(107, 49, 160) solid;
+}
+.Title {
+    text-align: center;
+    margin-top: 5px;
+    padding: 2px;
+    border-bottom: #112A46 5px solid;
+}
+.contaner {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+}
+
+.Post{
+    color: #112A46;
+    width: 400px;
+    margin: 35px;
+    border: 10px Color #334960 solid;
+    background-color: #ACC8E5;
+    padding: 10px;
+    border-radius: 15px;
+    transition: .25s;
+}
+.Post:hover{
+    color: #112A46;
+    width: 400px;
+    margin: 35px;
+    border: 10px Color #334960 solid;
+    background-color: #819dbb;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.Posts {
+    margin-left: 300px;
+    margin-right: 50px;
+    display: inline-block;
+
+}
+
+.Leftmenu{
+    display: inline-block;
+    background-color:#112A46;
+
+    padding: 25px;
+    border-radius: 15px;
+}
+.hash {
+    color: #ACC8E5;
+}
+.hash:hover {
+    color:#334960;
+}
